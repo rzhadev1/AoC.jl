@@ -1,1 +1,2 @@
 # AoC.jl
+Learning julia!
