@@ -5,7 +5,6 @@ println(reduce(+, map(m -> parse(Int, m[1]) * parse(Int, m[2]), collect(matches)
 
 # part 2
 new_matches = collect(eachmatch(r"(mul\((\d*),(\d*)\))|(do\(\))|(don't\(\))", lines))
-
 enable = true 
 total = 0
 for match in new_matches 
